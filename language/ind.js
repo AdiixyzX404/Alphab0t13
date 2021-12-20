@@ -8,7 +8,7 @@ exports.event = (prefix) =>{
 	return` ⚠️ Event grup belum di aktifkan, kirim perintah ${prefix}event on untuk mengaktifkan`
 }
 exports.wait = () => {
-	return `\`\`\`[ ! ] Proses kak...\`\`\``
+	return `\`\`\`Waitt. Lagi Proses\`\`\``
 	}
 exports.success = () => {
 	return `✅ Selesai...`
@@ -68,16 +68,16 @@ exports.spam = (prefix, command) => {
 	return `❎ Example ${prefix + command} teks|jumlah`
 	}
 exports.tahta = (prefix, command) => {
-	return `❎ Example ${prefix + command} zeeone|ofc`
+	return `❎ Example ${prefix + command} Adyy|Bot`
 	}
 exports.noteks = (prefix, command) => {
-	return `❎ Example ${prefix + command} zeeone`
+	return `❎ Example ${prefix + command} Adyy`
 	}
 exports.botNotAdm = () => {
 	return `Jadikan bot sebagai admin u/ menggunakan perintah ini`
 	}
 exports.tryAgain = () => {
-	return `❎ Yah gagal, coba ulangi ^_^`
+	return `❎ gagal, coba ulangi ^_^`
 	}
 exports.anlinOn = () => {
 	return `✅ Antilink Di Aktifkan`
@@ -86,7 +86,7 @@ exports.anlinOff = () => {
 	return `✅ Antilink Di Nonaktifkan`
 	}
 exports.notregis = (prefix, sender) => {
-	return `Hai @${sender.split("@")[0]} kamu belum terdaftar di database, silahkan ketik ${prefix}verify\n\nKamu juga bisa daftar dengan cara mengirimkan kode verifikasi dari web api\nhttps://api-alphabot.herokuapp.com/api/verification`
+	return `Hai @${sender.split("@")[0]} kamu belum terdaftar di database, silahkan ketik ${prefix}verify`
 	}
 exports.udahregis = (pushname) => {
 	return `Hai ${pushname} kamu sudah terdaftar di database`
@@ -95,7 +95,7 @@ exports.enNum = () => {
  return `❎ Masukan Angka Dengan Benar`
  }
 exports.adminGc = () => {
- return `Karena lu adalah admin jadi bot gk bakal kick lu`
+ return `Karena lu adalah admin. Bot gk bakal kick lu`
  }
  exports.izinDt = () => {
  return `Izin diterima`
