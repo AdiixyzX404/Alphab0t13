@@ -1,4 +1,4 @@
-const numberik = '•'
+const numberik = 'Π'
 const petik = '```'
 const help = (prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii, tekss)=> {
 	return`┌❏ *INDONESIA TIME*
@@ -114,15 +114,13 @@ const download = (prefix) => {
 `
 }
 const allmenu = (kyun, os, prefix, wita, wit, ucapannya2, timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat, latensii)  => {
-	return`❏───「 *WHATSAPP BOT* 」───❏
+	return`❏───「 *Adyy BOT* 」───❏
                                
-ℒ⃝🌅  *THIS DAY*
-${ucapannya2}
 ⏰ Jam : ${timuu} Server Time
 🌻 Hari : ${thisDay}
 🗓️ Tanggal : ${ini_tanggal}
 
-ℒ⃝📲 *P H O N E  S T A T I S T I C*
+ℒ⃝📲 *Phone Stats*
 🪀 Whatsapp : ${wa_version}
 📱 Merk HP : ${device_manufacturer}
 📱 Versi HP : ${device_model}
@@ -131,13 +129,12 @@ ${ucapannya2}
 🔯 MCC : ${mcc}
 ♈ MNC : ${mnc}
 
-ℒ⃝👾 *B O T  S T A T I S T I C*
+ℒ⃝👾 *Bot Info*
 🉐 Mode : ${status}
 ⛎ Prefix : ${prefix}
 📧 Total Hit : ${hit_today.length}
 📭 Personal Chat : ${totalchat.length - ini_gcchat}
-👥 Group Chat : ${ini_gcchat}
-👨‍👨‍👦‍👦 Total All Chat : ${totalchat.length}
+👥 Group Chat : ${ini_gcchat
 🌍 Browser : Chrome
 🌐 Server : Baileys
 ✴️ Version : 3.5.3
@@ -227,6 +224,8 @@ ${numberik} ${prefix}tictactoe @user
 ${numberik} ${prefix}delttt
 ${numberik} ${prefix}voting @user|reason|time
 ${numberik} ${prefix}delvote
+
+ *Baileys menu*
 ${numberik} ${prefix}jadibot
 ${numberik} ${prefix}stopjadibot
 ${numberik} ${prefix}listbot
@@ -496,7 +495,7 @@ ${numberik} ${prefix}nulis [text]
 ${numberik} ${prefix}tahta [text]
 ${numberik} ${prefix}ytgold [text]
 ${numberik} ${prefix}ytsilver [text]
-${numberik} ${prefix}emoji 👼
+${numberik} ${prefix}emoji
  
  *Image Effect*
 ${numberik} ${prefix}trigger
@@ -558,8 +557,6 @@ ${numberik} ${prefix}autoread <query> on / off
 ${numberik} ${prefix}antibug on / off
 ${numberik} ${prefix}antidelete on / off
 ${numberik} ${prefix}anticall on / off
-${numberik} ${prefix}autoketik on / off
-${numberik} ${prefix}autovn on / off
 ${numberik} ${prefix}antihidetag on / off
 ${numberik} ${prefix}autobio on / off
 ${numberik} ${prefix}register on / off
@@ -599,8 +596,6 @@ ${numberik} ${prefix}ceksewa
 ${numberik} ${prefix}premium add 62xxx waktu
 ${numberik} ${prefix}cekpremium
 ${numberik} ${prefix}listprem
-${numberik} ${prefix}belipremium
-${numberik} ${prefix}sewabot
 ${numberik} ${prefix}verify
 ${numberik} ${prefix}limit
 ${numberik} ${prefix}profile
